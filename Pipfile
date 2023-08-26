@@ -6,9 +6,9 @@ name = "pypi"
 [packages]
 scrapy = "*"
 scrapy-sentry = "*"
-city-scrapers-core = "*"
 pypiwin32 = {version = "*", sys_platform = "== 'win32'"}
 scrapy-wayback-middleware = "*"
+city-scrapers-core = {extras = ["aws"], version = "*"}
 
 [dev-packages]
 freezegun = "*"
